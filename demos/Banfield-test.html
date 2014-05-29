@@ -9,6 +9,14 @@
 				margin: 0;
 				padding: 0;
 			}
+			
+			.ytv-thumb{
+				display: none;	
+			}
+			
+			.ytv-list .ytv-content{
+				padding-left: 0px;	
+			}
 		</style>
 	</head>
 	<body>
@@ -26,8 +34,10 @@
 				
 				window.controller = new YTV('frame', {
 					user: 'BanfieldSeguinLtd',
-					accent: 'orange',
-					autoplay: false
+					playlist: 'PLjFQ2RJ8Zf6OKoGMvh_fKpZiCX4f5Ar5R',
+					accent: '#ef4124',
+					autoplay: false,
+					browsePlaylists: true
 				});
 		
 			};
